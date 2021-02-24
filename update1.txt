@@ -1,0 +1,7 @@
+The weight-space restructuring idea will work with any clustering algorithm which 
+provides a point location for each cluster that we can push image vectors toward so 
+Mean-Shift, EM-GMM and Agglomerative-Hierarchical (and K-Means) would be compatible, but 
+DBSCAN seems problematic.
+
+Do you feel comfortable with modifying the test_cluster.py script and experiementing with 
+clustering while I continue the restructuring experiment? 
